@@ -60,7 +60,7 @@ export default {
       title: "Leetcode Solutions",
       para:
         "I work on Leetcode to hone my skills as a programmer, to date I have over 350 solutions",
-      imageSrc: yellowPicture,
+      imageSrc: leetcodePicture,
       url: "https://leetcode.com/bronickel/",
     },
     {
@@ -68,11 +68,10 @@ export default {
       title: "SPOJ Solutions",
       para:
         "Repository of solutions to SPOJ problems I solved while on the UF Programming Team",
-      imageSrc: greenPicture,
+      imageSrc: spojPicture,
       url: "https://bitbucket.org/gill984/spoj/",
     },
   ],
-
   // End Work Section -----------------------
 
   // About Secton --------------
