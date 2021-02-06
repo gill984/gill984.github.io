@@ -13,7 +13,14 @@ import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
 
 import profilePicture from "./images/profile_square.jpeg"
-import leetcodePicture from "./images/leetcode.png"
+import leetcodePicture from "./images/LeetCode_Sharing.png"
+import spojPicture from "./images/B1rm7i-y_400x400.jpeg"
+
+import redPicture from "./images/red.png"
+import greenPicture from "./images/green.png"
+import yellowPicture from "./images/yellow.png"
+
+import linkedInPicture from "./images/linkedin.png"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -27,11 +34,11 @@ export default {
     //Line 2 For Header
     "embedded systems",
     //Line 3 For Header
-    "to React websites",
+    "to GUIs",
   ],
   //   Header Paragraph
   headerParagraph:
-    "I'm a software engineer from Florida. I've been working in the software industry for 7 years. I enjoy being a software team lead and individual contributor.",
+    "I'm a software engineer from Florida. I've been working in the software industry for 7 years.",
 
   //Contact Email
   contactEmail: "mjgill984@gmail.com",
@@ -45,8 +52,7 @@ export default {
       title: "Harris Programming Competition",
       para:
         "In 2018 I created a programming competition for my company on free time. I managed the project in this repository.",
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: redPicture,
       url: "https://bitbucket.org/gill984/hpc_2018",
     },
     {
@@ -54,8 +60,16 @@ export default {
       title: "Leetcode Solutions",
       para:
         "I work on Leetcode to hone my skills as a programmer, to date I have over 350 solutions",
-      imageSrc: leetcodePicture,
+      imageSrc: yellowPicture,
       url: "https://leetcode.com/bronickel/",
+    },
+    {
+      id: 3,
+      title: "SPOJ Solutions",
+      para:
+        "Repository of solutions to SPOJ problems I solved while on the UF Programming Team",
+      imageSrc: greenPicture,
+      url: "https://bitbucket.org/gill984/spoj/",
     },
   ],
 
@@ -76,44 +90,44 @@ export default {
 
   //   Import Icons from the top and link it here
 
-  skills: [
-    {
-      id: 1,
-      img: htmlIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      id: 2,
-      img: cssIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      id: 3,
-      img: jsIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      id: 4,
-      img: reactIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      id: 5,
-      img: designIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      id: 6,
-      img: codeIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-  ],
+  // skills: [
+  //   {
+  //     id: 1,
+  //     img: htmlIcon,
+  //     para:
+  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  //   },
+  //   {
+  //     id: 2,
+  //     img: cssIcon,
+  //     para:
+  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  //   },
+  //   {
+  //     id: 3,
+  //     img: jsIcon,
+  //     para:
+  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  //   },
+  //   {
+  //     id: 4,
+  //     img: reactIcon,
+  //     para:
+  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  //   },
+  //   {
+  //     id: 5,
+  //     img: designIcon,
+  //     para:
+  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  //   },
+  //   {
+  //     id: 6,
+  //     img: codeIcon,
+  //     para:
+  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  //   },
+  // ],
 
   // End Skills Section --------------------------
 
@@ -128,23 +142,10 @@ export default {
 
   contactSubHeading: "Let's create your next experience together",
   social: [
-    // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: githubIcon, url: "https://github.com/gill984" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
+      img: linkedInPicture,
+      url: "https://www.linkedin.com/in/michael-gill-76b41021/",
     },
   ],
-
-  // End Contact Section ---------------
 }
-
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
