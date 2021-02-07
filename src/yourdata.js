@@ -89,17 +89,57 @@ export default {
 
   //   Import Icons from the top and link it here
 
+  // skills: [
+  //   {
+  //     id: 1,
+  //     img: htmlIcon,
+  //     para:
+  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  //   },
+  //   {
+  //     id: 2,
+  //     img: cssIcon,
+  //     para:
+  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  //   },
+  //   {
+  //     id: 3,
+  //     img: jsIcon,
+  //     para:
+  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  //   },
+  //   {
+  //     id: 4,
+  //     img: reactIcon,
+  //     para:
+  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  //   },
+  //   {
+  //     id: 5,
+  //     img: designIcon,
+  //     para:
+  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  //   },
+  //   {
+  //     id: 6,
+  //     img: codeIcon,
+  //     para:
+  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  //   },
+  // ],
+
   // End Skills Section --------------------------
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Resume",
-  promotionPara: ".",
+  promotionHeading: "Heading",
+  promotionPara:
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's talk",
+  contactSubHeading: "Let's create your next experience together",
   social: [
     { img: githubIcon, url: "https://github.com/gill984" },
     {
