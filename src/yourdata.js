@@ -103,7 +103,7 @@ export default {
       id: 2,
       img: leaderIcon,
       para:
-        "Leadership - Several years of experience as both a successful software project lead and department group leader.",
+        "Leadership - I have several years of experience as both a successful software project lead and department group leader.",
     },
     {
       id: 3,
