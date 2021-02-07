@@ -11,16 +11,18 @@ import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import microIcon from "./images/computer-microprocessor.svg"
+import leaderIcon from "./images/leadership.svg"
+import programmingIcon from "./images/programming.svg"
 
 import profilePicture from "./images/profile_square.jpeg"
-import leetcodePicture from "./images/LeetCode_Sharing.png"
-import spojPicture from "./images/B1rm7i-y_400x400.jpeg"
 
 import redPicture from "./images/red.png"
 import greenPicture from "./images/green.png"
 import yellowPicture from "./images/yellow.png"
 
 import linkedInPicture from "./images/linkedin.png"
+import resumePdf from "./Resume.pdf"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -42,6 +44,7 @@ export default {
 
   //Contact Email
   contactEmail: "mjgill984@gmail.com",
+  resume: resumePdf,
 
   // End Header Details -----------------------
 
@@ -59,7 +62,7 @@ export default {
       id: 2,
       title: "Leetcode Solutions",
       para:
-        "I work on Leetcode to hone my skills as a programmer, to date I have over 350 solutions",
+        "I work on Leetcode to hone my skills as a programmer. To date I have over 350 solutions",
       imageSrc: yellowPicture,
       url: "https://leetcode.com/bronickel/",
     },
@@ -89,44 +92,44 @@ export default {
 
   //   Import Icons from the top and link it here
 
-  // skills: [
-  //   {
-  //     id: 1,
-  //     img: htmlIcon,
-  //     para:
-  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-  //   },
-  //   {
-  //     id: 2,
-  //     img: cssIcon,
-  //     para:
-  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-  //   },
-  //   {
-  //     id: 3,
-  //     img: jsIcon,
-  //     para:
-  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-  //   },
-  //   {
-  //     id: 4,
-  //     img: reactIcon,
-  //     para:
-  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-  //   },
-  //   {
-  //     id: 5,
-  //     img: designIcon,
-  //     para:
-  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-  //   },
-  //   {
-  //     id: 6,
-  //     img: codeIcon,
-  //     para:
-  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-  //   },
-  // ],
+  skills: [
+    {
+      id: 1,
+      img: microIcon,
+      para:
+        "Embedded Software - I've worked on things from software defined radios to 8-bit microcontrollers. I've worked on software in C, C++, Java, Python, and more.",
+    },
+    {
+      id: 2,
+      img: leaderIcon,
+      para:
+        "Leadership - Several years of experience as both a successful software project lead and department group leader.",
+    },
+    {
+      id: 3,
+      img: programmingIcon,
+      para:
+        "Software Testing - From unit testing to static code analysis to selling off software at the system level.",
+    },
+    //   {
+    //     id: 4,
+    //     img: reactIcon,
+    //     para:
+    //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+    //   },
+    //   {
+    //     id: 5,
+    //     img: designIcon,
+    //     para:
+    //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+    //   },
+    //   {
+    //     id: 6,
+    //     img: codeIcon,
+    //     para:
+    //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+    //   },
+  ],
 
   // End Skills Section --------------------------
 

@@ -29,6 +29,24 @@ const Footer = () => {
             Template created by{" "}
             <a href="https://www.chetanverma.com/">Chetan Verma</a>
           </span>
+          <div>
+            Icons made by{" "}
+            <a href="https://www.freepik.com" title="Freepik">
+              Freepik
+            </a>
+            {", "}
+            <a href="https://www.flaticon.com/authors/becris" title="Becris">
+              Becris
+            </a>
+            {", and "}
+            <a href="https://www.flaticon.com/authors/surang" title="Surang">
+              Surang
+            </a>{" "}
+            from{" "}
+            <a href="https://www.flaticon.com/" title="Flaticon">
+              www.flaticon.com
+            </a>
+          </div>
         </div>
       </div>
     </div>

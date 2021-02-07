@@ -13,13 +13,13 @@
     font-family: "Open Sans";
     text-align: center;
     padding: 10px;
-    transition: all 750ms ease-in-out;
-    transform: translate(0, 20px);
+    transition: all 350ms ease-in-out;
+    transform: translate(0, 40px);
     // opacity: 1;
     cursor: pointer;
     h1 {
       opacity: 1;
-      font-size: 20px;
+      font-size: 24px;
       color: white;
       text-shadow: 1px 1px 0px #000, -1px -1px 0px #000, 1px -1px 0px #000,
         -1px 1px 0px #000;
