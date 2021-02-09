@@ -150,4 +150,11 @@ export default {
       url: "https://www.linkedin.com/in/michael-gill-76b41021/",
     },
   ],
+
+  //  Clips Section
+  clips: [
+    "https://streamable.com/e/ryd0jz",
+    "https://streamable.com/e/6jezgi",
+    "https://streamable.com/e/aidnqk",
+  ],
 }
