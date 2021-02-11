@@ -12,6 +12,8 @@ import Footer from "../components/Footer"
 import Clips from "../components/Clips"
 import data from "../yourdata"
 
+import Fade from "react-reveal/Fade"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Michael Gill" />
@@ -21,11 +23,20 @@ const IndexPage = () => (
     {<Skills></Skills>}
     {/* <Promotion></Promotion> */}
     <Footer></Footer>
+    <Fade bottom>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <h1> Clips </h1>
+      </div>
+    </Fade>
     <div
       style={{
         width: "100%",
-        // height: 300,
-        // backgroundColor: "blue",
         display: "flex",
         justifyContent: "space-evenly",
         marginBottom: 20,
@@ -35,9 +46,6 @@ const IndexPage = () => (
       {data.clips.map(clip => (
         <Clips url={clip}></Clips>
       ))}
-      {/* <Clips url={data.clips[0]}></Clips>
-      <Clips url={data.clips[1]}></Clips>
-      <Clips url={data.clips[2]}></Clips> */}
     </div>
   </Layout>
 )
