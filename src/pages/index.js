@@ -9,45 +9,24 @@ import About from "../components/about"
 import Skills from "../components/skills"
 import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
-import Clips from "../components/Clips"
+import ClipContainer from "../components/ClipContainer"
 import data from "../yourdata"
 
 import Fade from "react-reveal/Fade"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Michael Gill" />
-    <Header></Header>
-    <Work></Work>
-    <About></About>
-    {<Skills></Skills>}
-    {/* <Promotion></Promotion> */}
-    <Footer></Footer>
-    <Fade bottom>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <h1> Clips </h1>
-      </div>
-    </Fade>
-    <div
-      style={{
-        width: "100%",
-        display: "flex",
-        justifyContent: "space-evenly",
-        marginBottom: 20,
-        flexWrap: "wrap",
-      }}
-    >
-      {data.clips.map(clip => (
-        <Clips url={clip}></Clips>
-      ))}
-    </div>
-  </Layout>
+  <Fade>
+    <Layout>
+      <SEO title="Michael Gill" />
+      <Header></Header>
+      <Work></Work>
+      <About></About>
+      {<Skills></Skills>}
+      {/* <Promotion></Promotion> */}
+      <Footer></Footer>
+      <ClipContainer></ClipContainer>
+    </Layout>
+  </Fade>
 )
 
 export default IndexPage

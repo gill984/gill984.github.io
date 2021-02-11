@@ -1,15 +1,14 @@
 import React from "react"
-import data from "../yourdata"
 import Fade from "react-reveal/Fade"
 
-const Clips = props => {
+const Clip = props => {
   return (
     <Fade>
       <iframe
         src={props.url}
         frameborder="0"
-        width="640"
-        height="360"
+        width="800"
+        height="450"
         padding={10}
         allowFullScreen
       ></iframe>
@@ -17,4 +16,4 @@ const Clips = props => {
   )
 }
 
-export default Clips
+export default Clip
