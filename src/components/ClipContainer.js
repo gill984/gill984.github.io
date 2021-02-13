@@ -1,9 +1,11 @@
-import React from "react"
+import React, { useState } from "react"
 import data from "../yourdata"
 import Fade from "react-reveal/Fade"
 import Clip from "./Clip"
 
 const ClipContainer = props => {
+  const [showing, setShowing] = useState(false)
+
   return (
     <Fade>
       <div>
@@ -13,22 +15,27 @@ const ClipContainer = props => {
             justifyContent: "center",
             alignItems: "center",
           }}
-        >
-          Clips
-        </h1>
-        <div
-          style={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "space-evenly",
-            marginBottom: 20,
-            flexWrap: "wrap",
+          onClick={() => {
+            setShowing(!showing)
           }}
         >
-          {data.clips.map(clip => (
-            <Clip url={clip}></Clip>
-          ))}
-        </div>
+          Click to View Unrelated Clips
+        </h1>
+        {showing && (
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "space-evenly",
+              marginBottom: 20,
+              flexWrap: "wrap",
+            }}
+          >
+            {data.clips.map(clip => (
+              <Clip url={clip}></Clip>
+            ))}
+          </div>
+        )}
       </div>
     </Fade>
   )

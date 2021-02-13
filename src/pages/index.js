@@ -7,10 +7,8 @@ import Header from "../components/Header"
 import Work from "../components/Work"
 import About from "../components/about"
 import Skills from "../components/skills"
-import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
 import ClipContainer from "../components/ClipContainer"
-import data from "../yourdata"
 
 import Fade from "react-reveal/Fade"
 
@@ -22,7 +20,6 @@ const IndexPage = () => (
       <Work></Work>
       <About></About>
       {<Skills></Skills>}
-      {/* <Promotion></Promotion> */}
       <Footer></Footer>
       <ClipContainer></ClipContainer>
     </Layout>
