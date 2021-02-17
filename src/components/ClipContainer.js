@@ -5,24 +5,33 @@ import Clip from "./Clip"
 
 const ClipContainer = props => {
   const [showing, setShowing] = useState(false)
+  const [index, setIndex] = useState(
+    Math.floor(Math.random() * data.clips.length)
+  )
+
+  function updateDiv() {
+    setIndex(Math.floor(Math.random() * data.clips.length))
+  }
 
   return (
     <Fade>
       <div>
-        <h1
+        <button
           style={{
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
           }}
           onClick={() => {
-            setShowing(!showing)
+            if (!showing) setShowing(true)
+            else updateDiv()
           }}
         >
-          Click to View Unrelated Clips
-        </h1>
+          Click to View a Random Unrelated Clip
+        </button>
         {showing && (
           <div
+            id="video-clip"
             style={{
               width: "100%",
               display: "flex",
@@ -31,9 +40,7 @@ const ClipContainer = props => {
               flexWrap: "wrap",
             }}
           >
-            {data.clips.map(clip => (
-              <Clip url={clip}></Clip>
-            ))}
+            <Clip url={data.clips[index]}></Clip>
           </div>
         )}
       </div>

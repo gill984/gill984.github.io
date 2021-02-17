@@ -1,16 +1,5 @@
-// Skills Icons
-import htmlIcon from "./images/html.svg"
-import cssIcon from "./images/css.svg"
-import reactIcon from "./images/react.svg"
-import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
-
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
 import microIcon from "./images/computer-microprocessor.svg"
 import leaderIcon from "./images/leadership.svg"
 import programmingIcon from "./images/programming.svg"
@@ -158,5 +147,7 @@ export default {
     "https://streamable.com/e/aidnqk",
     "https://www.youtube.com/embed/Nis0GeqFdWI",
     "https://streamable.com/e/j6l4qd",
+    "https://streamable.com/e/sio83o",
+    "https://streamable.com/e/yzw3fq",
   ],
 }

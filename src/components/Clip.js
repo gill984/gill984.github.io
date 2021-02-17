@@ -10,6 +10,7 @@ const Clip = props => {
         }}
       >
         <iframe
+          title="Clip"
           src={props.url}
           frameborder="0"
           width="800"
