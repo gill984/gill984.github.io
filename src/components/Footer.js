@@ -20,6 +20,7 @@ const Footer = () => {
                 href={socialLink.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                key={socialLink.url}
               >
                 <img src={socialLink.img} alt="icons"></img>
               </a>
