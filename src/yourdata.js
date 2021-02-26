@@ -67,8 +67,7 @@ export default {
     {
       id: 4,
       title: "Portfolio Website",
-      para:
-        "The website you're viewing now. You can look at the code base on github by clicking here.",
+      para: "The website you're viewing now is managed on github.",
       imageSrc: websitePicture,
       url: "https://github.com/gill984/gill984.github.io",
     },
