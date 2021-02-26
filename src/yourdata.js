@@ -6,9 +6,10 @@ import programmingIcon from "./images/programming.svg"
 
 import profilePicture from "./images/profile_square.jpeg"
 
-import redPicture from "./images/red.png"
-import greenPicture from "./images/green.png"
-import yellowPicture from "./images/yellow.png"
+import hpcPicture from "./images/hpc_picture.png"
+import spojPicture from "./images/spoj_picture.png"
+import leetcodePicture from "./images/leetcode.png"
+import websitePicture from "./images/website_picture.png"
 
 import linkedInPicture from "./images/linkedin.png"
 import resumePdf from "./Resume.pdf"
@@ -44,7 +45,7 @@ export default {
       title: "Harris Programming Competition",
       para:
         "In 2018 I created a programming competition for my company on free time. I managed the project in this repository.",
-      imageSrc: redPicture,
+      imageSrc: hpcPicture,
       url: "https://bitbucket.org/gill984/hpc_2018",
     },
     {
@@ -52,7 +53,7 @@ export default {
       title: "Leetcode Solutions",
       para:
         "I work on Leetcode to hone my skills as a programmer. To date I have over 350 solutions",
-      imageSrc: yellowPicture,
+      imageSrc: leetcodePicture,
       url: "https://leetcode.com/bronickel/",
     },
     {
@@ -60,8 +61,16 @@ export default {
       title: "SPOJ Solutions",
       para:
         "Repository of solutions to SPOJ problems I solved while on the UF Programming Team",
-      imageSrc: greenPicture,
+      imageSrc: spojPicture,
       url: "https://bitbucket.org/gill984/spoj/",
+    },
+    {
+      id: 4,
+      title: "Portfolio Website",
+      para:
+        "The website you're viewing now. You can look at the code base on github by clicking here.",
+      imageSrc: websitePicture,
+      url: "https://github.com/gill984/gill984.github.io",
     },
   ],
   // End Work Section -----------------------
