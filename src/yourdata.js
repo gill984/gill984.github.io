@@ -76,11 +76,17 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "I started programming in 2010 at the University of Florida. I obtained my BS in Computer Engineering. While in school I participated in the programming team and served as an officer for ACM.",
+    "I started programming in 2010 at the University of Florida and fell in love with it." +
+    "While in school I participated in the programming team and served as an officer for ACM." +
+    "I graduated from the University of Florida with my BS in Computer Engineering in 2013",
   aboutParaTwo:
-    "In 2013 I joined L3Harris corporation as a software engineer. Since then I've worked as an individual contributor, software lead, and manager for a small group.",
+    "In 2013 I joined L3Harris corporation as a software engineer." +
+    "Since then I've worked as an individual contributor, software lead," +
+    "and manager for a small group.",
   aboutParaThree:
-    "I always enjoy learning about new technologies and concepts. Some of my hobbies are longboarding, playing basketball, and playing video games.",
+    "I always enjoy learning about new technologies and concepts. For example this website is a" +
+    "project I started after learning React on my own. Some of my hobbies are longboarding," +
+    "playing basketball, and playing video games.",
   aboutImage: profilePicture,
 
   //   End About Section ---------------------
@@ -108,24 +114,6 @@ export default {
       para:
         "Software Testing - From unit testing to static code analysis to selling off software at the system level.",
     },
-    //   {
-    //     id: 4,
-    //     img: reactIcon,
-    //     para:
-    //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    //   },
-    //   {
-    //     id: 5,
-    //     img: designIcon,
-    //     para:
-    //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    //   },
-    //   {
-    //     id: 6,
-    //     img: codeIcon,
-    //     para:
-    //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    //   },
   ],
 
   // End Skills Section --------------------------
@@ -146,16 +134,5 @@ export default {
       img: linkedInPicture,
       url: "https://www.linkedin.com/in/michael-gill-76b41021/",
     },
-  ],
-
-  //  Clips Section
-  clips: [
-    "https://streamable.com/e/ryd0jz",
-    "https://streamable.com/e/6jezgi",
-    "https://streamable.com/e/aidnqk",
-    "https://www.youtube.com/embed/Nis0GeqFdWI",
-    "https://streamable.com/e/j6l4qd",
-    "https://streamable.com/e/sio83o",
-    "https://streamable.com/e/yzw3fq",
   ],
 }

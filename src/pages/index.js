@@ -8,7 +8,6 @@ import Work from "../components/Work"
 import About from "../components/about"
 import Skills from "../components/skills"
 import Footer from "../components/Footer"
-import ClipContainer from "../components/ClipContainer"
 
 import Fade from "react-reveal/Fade"
 
@@ -21,7 +20,6 @@ const IndexPage = () => (
       <About></About>
       {<Skills></Skills>}
       <Footer></Footer>
-      <ClipContainer></ClipContainer>
     </Layout>
   </Fade>
 )

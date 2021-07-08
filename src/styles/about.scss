@@ -15,6 +15,7 @@
   }
   .content {
     width: 50%;
+    font-size:16pt;
     @include media(">=phone", "<lgphone") {
       width: 100%;
     }
@@ -42,7 +43,7 @@
     width: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     overflow: hidden;
     @include media(">=phone", "<lgphone") {
       width: 100%;
