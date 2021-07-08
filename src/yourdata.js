@@ -30,7 +30,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "I'm a software engineer from Florida. I've been working in the software industry for 7 years.",
+    "I'm a software engineer from Florida. I've been working in the software industry for eight years.",
 
   //Contact Email
   contactEmail: "mjgill984@gmail.com",
@@ -76,17 +76,17 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "I started programming in 2010 at the University of Florida and fell in love with it." +
-    "While in school I participated in the programming team and served as an officer for ACM." +
-    "I graduated from the University of Florida with my BS in Computer Engineering in 2013",
+    "I started programming in 2010 in college and fell in love with it. " +
+    "While in school I participated in the programming team and served as an officer for ACM. " +
+    "I graduated from the University of Florida with my BS in Computer Engineering in 2013.",
   aboutParaTwo:
-    "In 2013 I joined L3Harris corporation as a software engineer." +
-    "Since then I've worked as an individual contributor, software lead," +
-    "and manager for a small group.",
+    "In 2013 I joined L3Harris corporation as a software engineer. " +
+    "Since then I've worked as an individual contributor, a software team lead, " +
+    "and a manager for a group.",
   aboutParaThree:
-    "I always enjoy learning about new technologies and concepts. For example this website is a" +
-    "project I started after learning React on my own. Some of my hobbies are longboarding," +
-    "playing basketball, and playing video games.",
+    "I always enjoy learning about new technologies and concepts. For example this website is a " +
+    "project I started after learning React on my own. Some of my hobbies are longboarding, " +
+    "playing basketball, and playing video games. ",
   aboutImage: profilePicture,
 
   //   End About Section ---------------------
