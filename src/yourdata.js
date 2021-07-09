@@ -42,9 +42,9 @@ export default {
   projects: [
     {
       id: 1,
-      title: "Harris Programming Competition",
+      title: "Programming Competition",
       para:
-        "In 2018 I created a programming competition for my company on free time. I managed the project in this repository.",
+        "In 2018 I created a programming competition for my company on free time.",
       imageSrc: hpcPicture,
       url: "https://bitbucket.org/gill984/hpc_2018",
     },
@@ -86,7 +86,7 @@ export default {
   aboutParaThree:
     "I always enjoy learning about new technologies and concepts. For example this website is a " +
     "project I started after learning React on my own. Some of my hobbies are longboarding, " +
-    "playing basketball, and playing video games. ",
+    "playing basketball, reading, and playing video games. ",
   aboutImage: profilePicture,
 
   //   End About Section ---------------------
