@@ -7,11 +7,14 @@
 
 import React from "react"
 import Navbar from "./Navbar"
+import Toggler from "./Toggler"
+
 import "../styles/mains.scss"
 
 const Layout = ({ children }) => {
   return (
     <>
+    <Toggler/>
       <Navbar></Navbar>
       <main>{children}</main>
     </>
