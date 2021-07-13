@@ -41,7 +41,7 @@ const Header = () => {
           </Fade>
           <Fade bottom>
             <a
-              href={`mailto:${data.contactEmail ? data.contactEmail : ""}`}
+              href={"https://www.linkedin.com/in/michael-gill-76b41021/"}
               className="primary-btn"
             >
               Connect With Me

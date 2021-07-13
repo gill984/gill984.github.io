@@ -129,7 +129,8 @@ export default {
 
   contactSubHeading: "Let's talk",
   social: [
-    { img: githubIcon, url: "https://github.com/gill984" },
+    { img: githubIcon,
+      url: "https://github.com/gill984" },
     {
       img: linkedInPicture,
       url: "https://www.linkedin.com/in/michael-gill-76b41021/",
