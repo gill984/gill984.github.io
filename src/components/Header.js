@@ -3,6 +3,7 @@ import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 
 const Header = () => {
+  
   return (
     <div className="section" id="home">
       <div className="container">
