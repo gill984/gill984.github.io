@@ -14,6 +14,8 @@ import websitePicture from "./images/website_picture.png"
 import linkedInPicture from "./images/linkedin.png"
 import resumePdf from "./Resume.pdf"
 
+const workStart = new Date("06/24/2013");
+
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -30,10 +32,10 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "I'm a software engineer from Florida. I've been working in the software industry for eight years.",
+    "I'm a software engineer from Florida. I've been working in the software industry for " + calculateAge(workStart) + " years.",
 
   //Contact Email
-  contactEmail: "mjgill984@gmail.com",
+  contactEmail: "mjgill984+website@gmail.com",
   resume: resumePdf,
 
   // End Header Details -----------------------
@@ -136,4 +138,10 @@ export default {
       url: "https://www.linkedin.com/in/michael-gill-76b41021/",
     },
   ],
+}
+
+function calculateAge(pastDate) {
+  var ageDifMs = Date.now() - pastDate;
+  var ageDate = new Date(ageDifMs); // miliseconds from epoch
+  return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
