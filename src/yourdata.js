@@ -135,7 +135,7 @@ export default {
       url: "https://github.com/gill984" },
     {
       img: linkedInPicture,
-      url: "https://www.linkedin.com/in/michael-gill-76b41021/",
+      url: "https://www.linkedin.com/in/M-J-Gill/",
     },
   ],
 }
