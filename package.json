@@ -20,6 +20,7 @@
     "gatsby-plugin-styled-components": "^5.15.0",
     "gatsby-plugin-typography": "^4.15.0",
     "gatsby-source-filesystem": "^2.5.0",
+    "gatsby-source-graphql": "^4.15.0",
     "gatsby-transformer-sharp": "^2.6.0",
     "node-sass": "^4.0.0",
     "package.json": "^2.0.1",

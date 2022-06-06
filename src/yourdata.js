@@ -82,10 +82,13 @@ export default {
     "While in school I participated in the programming team and served as an officer for ACM. " +
     "I graduated from the University of Florida with my BS in Computer Engineering in 2013.",
   aboutParaTwo:
-    "In 2013 I joined L3Harris corporation as a software engineer. " +
-    "Since then I've worked as an individual contributor, a software team lead, " +
-    "and a manager for a group.",
+    "In 2013 I joined L3Harris corporation as a software engineer." +
+    "At L3Harris I worked as an individual contributor, a software team lead, " +
+    "and a manager for a group.", 
   aboutParaThree:
+    "In 2022 I left L3Harris to join Meta. At Meta I've been enjoying working " +
+    "as an individual contributor on the product backend.",
+  aboutParaFour:
     "I always enjoy learning about new technologies and concepts. For example this website is a " +
     "project I started after learning React on my own. Some of my hobbies are longboarding, " +
     "playing basketball, reading, and playing video games. ",
@@ -129,7 +132,7 @@ export default {
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's talk",
+  contactSubHeading: "",
   social: [
     { img: githubIcon,
       url: "https://github.com/gill984" },
