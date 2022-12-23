@@ -7,7 +7,7 @@ import programmingIcon from "./images/programming.svg"
 import profilePicture from "./images/profile_square.jpeg"
 
 import hpcPicture from "./images/hpc_picture.png"
-import spojPicture from "./images/spoj_picture.png"
+import discordPicture from "./images/discord_bot.jpg"
 import leetcodePicture from "./images/leetcode.png"
 import websitePicture from "./images/website_picture.png"
 
@@ -28,7 +28,7 @@ export default {
     //Line 2 For Header
     "embedded systems",
     //Line 3 For Header
-    "to GUIs",
+    "to backends",
   ],
   //   Header Paragraph
   headerParagraph:
@@ -60,11 +60,11 @@ export default {
     },
     {
       id: 3,
-      title: "SPOJ Solutions",
+      title: "Discord Bot",
       para:
-        "Repository of solutions to SPOJ problems I solved while on the UF Programming Team",
-      imageSrc: spojPicture,
-      url: "https://bitbucket.org/gill984/spoj/",
+        "I created a Discord bot which creates a thread containing the latest daily Leetcode question on command",
+      imageSrc: discordPicture,
+      url: "https://github.com/gill984/DiscordLeetcodeBot",
     },
     {
       id: 4,
@@ -82,12 +82,12 @@ export default {
     "While in school I participated in the programming team and served as an officer for ACM. " +
     "I graduated from the University of Florida with my BS in Computer Engineering in 2013.",
   aboutParaTwo:
-    "In 2013 I joined L3Harris corporation as a software engineer." +
+    "In 2013 I joined L3Harris corporation as a software engineer. " +
     "At L3Harris I worked as an individual contributor, a software team lead, " +
     "and a manager for a group.", 
   aboutParaThree:
     "In 2022 I left L3Harris to join Meta. At Meta I've been enjoying working " +
-    "as an individual contributor on the product backend.",
+    "as an individual contributor on the product backend. ",
   aboutParaFour:
     "I always enjoy learning about new technologies and concepts. For example this website is a " +
     "project I started after learning React on my own. Some of my hobbies are longboarding, " +
