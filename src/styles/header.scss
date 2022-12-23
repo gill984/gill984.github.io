@@ -40,6 +40,8 @@
     width: 50%;
     text-align: center;
     overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
     @include media(">=phone", "<lgphone") {
       font-size: 12px;
       width: 100%;

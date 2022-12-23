@@ -5,7 +5,7 @@ import data from "../yourdata"
 
 const Work = () => {
   return (
-    <Fade>
+    <Fade bottom cascade>
       <div className="section" id="work">
         <div className="container">
           <div className="work-wrapper">
@@ -14,7 +14,6 @@ const Work = () => {
             </Fade>
 
             <div className="grid">
-              <Fade bottom cascade>
                 {data.projects.map(project => (
                   <Card
                     key={project.id}
@@ -24,7 +23,6 @@ const Work = () => {
                     projectLink={project.url}
                   ></Card>
                 ))}
-              </Fade>
             </div>
           </div>
         </div>

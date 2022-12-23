@@ -4,6 +4,7 @@ import data from "../yourdata"
 
 const About = () => {
   return (
+    <Fade bottom cascade>
     <div className="secion" id="about">
       <div className="container">
         <div className="about-section">
@@ -30,6 +31,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </Fade>
   )
 }
 

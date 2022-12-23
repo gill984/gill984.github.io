@@ -54,7 +54,7 @@ export default {
       id: 2,
       title: "Leetcode Solutions",
       para:
-        "I work on Leetcode to hone my skills as a programmer. To date I have almost 700 solutions",
+        "I work on Leetcode to hone my skills as a programmer. To date I have almost 800 solutions",
       imageSrc: leetcodePicture,
       url: "https://leetcode.com/bronickel/",
     },

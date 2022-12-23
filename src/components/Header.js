@@ -8,7 +8,7 @@ const Header = () => {
     <div className="section" id="home">
       <div className="container">
         <div className="header-wrapper">
-          <Fade bottom>
+          <Fade bottom cascade>
             <h2>
               Hi, I'm {data.name}{" "}
               <span role="img" aria-label="Emoji">
@@ -19,28 +19,22 @@ const Header = () => {
           <Fade bottom cascade>
             <div className="heading-wrapper">
               <h1>
-                {data.headerTagline[0]
-                  ? data.headerTagline[0]
-                  : "Building digital"}
+                {data.headerTagline[0]}
               </h1>
               <h1>
                 {" "}
-                {data.headerTagline[1]
-                  ? data.headerTagline[1]
-                  : "products, brands"}
+                {data.headerTagline[1]}
               </h1>
               <h1>
                 {" "}
-                {data.headerTagline[2]
-                  ? data.headerTagline[2]
-                  : "and experience"}
+                {data.headerTagline[2]}
               </h1>
             </div>
           </Fade>
           <Fade bottom>
             <p>{data.headerParagraph}</p>
           </Fade>
-          <Fade bottom>
+          <Fade bottom cascade>
             <a
               href={"https://www.linkedin.com/in/michael-gill-76b41021/"}
               className="primary-btn"
