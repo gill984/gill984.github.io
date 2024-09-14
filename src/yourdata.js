@@ -12,7 +12,7 @@ import leetcodePicture from "./images/leetcode.png"
 import websitePicture from "./images/website_picture.png"
 
 import linkedInPicture from "./images/linkedin.png"
-import resumePdf from "./Resume.pdf"
+import resumePdf from "./Michael Gill Resume Website.pdf"
 
 const workStart = new Date("06/24/2013");
 
