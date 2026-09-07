@@ -100,4 +100,46 @@
       }
     }
   }
+
+  @media (max-width: 767px) {
+    display: list-item;
+    width: auto;
+    height: auto;
+    margin: 0.75rem 0;
+    overflow: visible !important;
+    color: var(--textLink);
+    list-style: none;
+
+    &::before,
+    .card-image {
+      display: none;
+    }
+
+    .content,
+    &:hover .content {
+      display: block;
+      max-width: none;
+      padding: 0;
+      background: transparent;
+      border: 0;
+      box-shadow: none;
+      transform: none;
+      text-align: center;
+    }
+
+    .content h1,
+    &:hover .content h1 {
+      margin: 0;
+      font-size: 1rem;
+      color: var(--textLink);
+      opacity: 1;
+      text-align: center;
+      text-shadow: none;
+    }
+
+    .content p,
+    &:hover .content p {
+      display: none;
+    }
+  }
 }
