@@ -66,21 +66,26 @@ export default {
   // End Work Section -----------------------
 
   // About Secton --------------
-  aboutParaOne:
-    "I started programming in 2010 in college and fell in love with it. " +
-    "While in school I participated in the programming team and served as an officer for ACM. " +
-    "I graduated from the University of Florida with my BS in Computer Engineering in 2013.",
-  aboutParaTwo:
-    "In 2013 I joined L3Harris corporation as a software engineer. " +
-    "At L3Harris I worked as an individual contributor, a software team lead, " +
-    "and a manager for a group.", 
-  aboutParaThree:
-    "In 2022 I left L3Harris to join Meta. At Meta I've been enjoying working " +
-    "as an individual contributor on the product backend. ",
-  aboutParaFour:
-    "I always enjoy learning about new technologies and concepts. For example this website is a " +
-    "project I started after learning React on my own. Some of my hobbies are longboarding, " +
-    "playing basketball, reading, and playing video games. ",
+  aboutExperience: [
+    {
+      company: "Capital One",
+      role: "Senior Principal Software Engineer",
+      bullets: [
+        "Evolved an AWS-based transaction processing platform serving millions of daily transactions.",
+        "Directed engineers in building an AWS Lambda-based journey-testing framework that achieved 90% system-level test coverage.",
+        "Drove architectural modernization across three teams, migrating legacy store-and-forward processing to real-time transactions.",
+      ],
+    },
+    {
+      company: "Meta",
+      role: "E5 Senior Software Engineer",
+      bullets: [
+        "Developed Python, Hack/PHP, and SQL systems supporting millions of Facebook Dating users.",
+        "Designed integrity and enforcement projects that reduced scammer prevalence by more than 50%.",
+        "Created an auto-balancing prioritization system to focus enforcement on the most harmful users.",
+      ],
+    },
+  ],
   //   End About Section ---------------------
 
   //   Promotion Section --------------------------

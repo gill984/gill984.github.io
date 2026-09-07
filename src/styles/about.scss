@@ -18,7 +18,7 @@
   .content {
     width: 100%;
     max-width: 900px;
-    font-size:16pt;
+    font-size: 0.95rem;
     @include media(">=phone", "<lgphone") {
       width: 100%;
     }
@@ -34,6 +34,35 @@
       line-height: 20px;
       @include media(">=tablet", "<desktop") {
         text-align: center;
+      }
+    }
+    .experience-list {
+      section {
+        margin-bottom: 1.5rem;
+      }
+      .experience-heading {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 1rem;
+        flex-wrap: wrap;
+
+        h2 {
+          margin: 0 0 0.25rem;
+          font-size: 1.2rem;
+        }
+        .role {
+          margin: 0 0 0.5rem;
+          font-size: 0.9rem;
+          font-style: italic;
+        }
+      }
+      ul {
+        margin: 0;
+        padding-left: 1.25rem;
+      }
+      li {
+        margin-bottom: 0.35rem;
       }
     }
     p {

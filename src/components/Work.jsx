@@ -7,7 +7,7 @@ const Work = () => {
     <div className="section" id="work">
       <div className="container">
         <div className="work-wrapper">
-          <h1>Projects</h1>
+          <h1>Personal Projects</h1>
 
           <div className="grid">
             {data.projects.map(project => (

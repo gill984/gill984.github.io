@@ -7,19 +7,22 @@ const About = () => {
       <div className="container">
         <div className="about-section">
           <div className="content">
-            <h1>About Me</h1>
-            <p>
-              {data.aboutParaOne}
-              <br></br>
-              <br></br>
-              {data.aboutParaTwo}
-              <br></br>
-              <br></br>
-              {data.aboutParaThree}
-              <br></br>
-              <br></br>
-              {data.aboutParaFour}
-            </p>
+            <h1>Professional Experience</h1>
+            <div className="experience-list">
+              {data.aboutExperience.map(experience => (
+                <section key={experience.company}>
+                  <div className="experience-heading">
+                    <h2>{experience.company}</h2>
+                    <p className="role">{experience.role}</p>
+                  </div>
+                  <ul>
+                    {experience.bullets.map(bullet => (
+                      <li key={bullet}>{bullet}</li>
+                    ))}
+                  </ul>
+                </section>
+              ))}
+            </div>
           </div>
         </div>
       </div>

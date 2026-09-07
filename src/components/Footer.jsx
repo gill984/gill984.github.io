@@ -7,7 +7,6 @@ const Footer = () => {
         <div className="footer-container">
           <div className="attribution">
             <div>Template created by Chetan Verma</div>
-            <div>Icons made by Freepik, Becris, and Surang from Flaticon</div>
           </div>
         </div>
       </div>

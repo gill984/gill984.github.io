@@ -12,19 +12,6 @@ const Navbar = () => {
     <div className="section">
       <div className="container">
         <div className="navbar-wrapper">
-          <div
-            role="button"
-            onClick={() => scrollToSection("home")}
-            onKeyDown={event => {
-              if (event.key === "Enter" || event.key === " ") {
-                scrollToSection("home")
-              }
-            }}
-            className="name"
-            tabIndex={0}
-          >
-            Portfolio.
-          </div>
           <div className="links-wrapper">
             <button type="button" onClick={() => scrollToSection("work")}>Projects</button>
             <button type="button" onClick={() => scrollToSection("about")}>About</button>
