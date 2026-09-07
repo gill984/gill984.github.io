@@ -81,4 +81,23 @@
     opacity: 1;
     transform: translate(0, 0px);
   }
+
+  @media (hover: none), (pointer: coarse) {
+    &::before {
+      background: rgba(15, 23, 42, 0.52);
+    }
+
+    .content {
+      transform: translate(0, 0px);
+      background: rgba(15, 23, 42, 0.86);
+      border-color: rgba(255, 255, 255, 0.18);
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.28);
+
+      h1,
+      p {
+        opacity: 1;
+        transform: translate(0, 0px);
+      }
+    }
+  }
 }

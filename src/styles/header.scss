@@ -24,7 +24,7 @@
   .heading-wrapper {
     h1 {
       text-align: center;
-      line-height: 0.5;
+      line-height: 1.2;
       @include media(">=phone", "<lgphone") {
         font-size: 1.5rem;
       }
