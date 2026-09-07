@@ -16,7 +16,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
         decoding="async"
       />
       <div className="content">
-        <h1 className="header">{heading}</h1>
+        <h2 className="header">{heading}</h2>
         <p className="text">{paragraph}</p>
       </div>
     </a>

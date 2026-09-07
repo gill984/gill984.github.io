@@ -39,6 +39,7 @@ body {
   --textLink: blue;
   --hr: hsla(0, 0%, 0%, 0.2);
   --icon-filter: none;
+  --image-border: #000;
 
   background-color: var(--bg);
   transition: background-color 240ms ease, color 240ms ease;
@@ -57,11 +58,17 @@ body.dark {
   --textLink: #7dd3fc;
   --hr: rgba(148, 163, 184, 0.32);
   --icon-filter: invert(1);
+  --image-border: #fff;
 }
 
 body,
 body * {
   transition: color 240ms ease, background-color 240ms ease, border-color 240ms ease;
+}
+
+:focus-visible {
+  outline: 2px solid var(--textLink);
+  outline-offset: 3px;
 }
 
 .section {

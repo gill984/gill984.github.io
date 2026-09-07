@@ -9,6 +9,10 @@
   h1 {
     font-size: 3rem;
     line-height: 20px;
+    @include media(">=phone", "<tablet") {
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+    }
   }
   .grid {
     display: grid;

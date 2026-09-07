@@ -18,7 +18,7 @@
       font-size: 16px;
     }
     @include media(">=tablet", "<desktop") {
-      font-size: 16px;
+      font-size: 1.5rem;
     }
   }
   .heading-wrapper {
@@ -32,7 +32,7 @@
         font-size: 1.5rem;
       }
       @include media(">=tablet", "<desktop") {
-        font-size: 2.5rem;
+        font-size: 2.0rem;
       }
     }
   }

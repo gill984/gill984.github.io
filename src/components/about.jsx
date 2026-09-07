@@ -3,7 +3,7 @@ import data from "../yourdata"
 
 const About = () => {
   return (
-    <div className="secion" id="about">
+    <div className="section" id="about">
       <div className="container">
         <div className="about-section">
           <div className="content">

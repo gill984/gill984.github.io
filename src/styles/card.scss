@@ -29,6 +29,9 @@
     height: 100%;
     object-fit: cover;
     display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--image-border);
+    border-radius: 14px;
   }
 
   .content {
@@ -45,7 +48,7 @@
     transition: all 350ms ease-in-out;
     transform: translate(0, 40px);
     cursor: pointer;
-    h1 {
+    h2 {
       opacity: 0;
       font-size: 28px;
       color: white;
@@ -73,7 +76,7 @@
     box-shadow: 0 8px 24px rgba(15, 23, 42, 0.28);
   }
 
-  &:hover .content h1 {
+  &:hover .content h2 {
     opacity: 1;
   }
 
@@ -93,7 +96,7 @@
       border-color: rgba(255, 255, 255, 0.18);
       box-shadow: 0 8px 24px rgba(15, 23, 42, 0.28);
 
-      h1,
+      h2,
       p {
         opacity: 1;
         transform: translate(0, 0px);
@@ -127,8 +130,8 @@
       text-align: center;
     }
 
-    .content h1,
-    &:hover .content h1 {
+    .content h2,
+    &:hover .content h2 {
       margin: 0;
       font-size: 1rem;
       color: var(--textLink);
