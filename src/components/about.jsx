@@ -1,17 +1,13 @@
 import React from "react"
-import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 
 const About = () => {
   return (
-    <Fade bottom cascade>
     <div className="secion" id="about">
       <div className="container">
         <div className="about-section">
           <div className="content">
-            <Fade bottom cascade>
-              <h1>About Me</h1>
-            </Fade>
+            <h1>About Me</h1>
             <p>
               {data.aboutParaOne}
               <br></br>
@@ -25,13 +21,9 @@ const About = () => {
               {data.aboutParaFour}
             </p>
           </div>
-          <div className="image-wrapper">
-            <img src={data.aboutImage} alt="about"></img>
-          </div>
         </div>
       </div>
     </div>
-    </Fade>
   )
 }
 

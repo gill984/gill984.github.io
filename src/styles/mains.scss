@@ -1,21 +1,31 @@
 @charset "utf-8";
-@import "./include-media.scss";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
-
-// Atoms
-@import "./card.scss";
-
-// Components
-@import "./navbar.scss";
-@import "./header.scss";
-@import "./work.scss";
-@import "./about.scss";
-@import "./skills.scss";
-@import "./promotion.scss";
-@import "./footer.scss";
+@use "./include-media" as *;
+@use "./card";
+@use "./navbar";
+@use "./header";
+@use "./work";
+@use "./about";
+@use "./footer";
 
 * {
   font-family: "Montserrat";
+}
+
+.app-shell {
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 240ms ease-out, transform 240ms ease-out;
+}
+
+.app-shell--ready {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-shell {
+    transition: none;
+  }
 }
 
 body {
@@ -28,8 +38,10 @@ body {
   --textTitle: #222;
   --textLink: blue;
   --hr: hsla(0, 0%, 0%, 0.2);
+  --icon-filter: none;
 
   background-color: var(--bg);
+  transition: background-color 240ms ease, color 240ms ease;
 }
 
 body.dark {
@@ -39,11 +51,17 @@ body.dark {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 
-  --bg: darkslategray;
-  color: rgba(255, 255, 255, 0.88);
-  --textTitle: white;
-  --textLink: yellow;
-  --hr: hsla(0, 0%, 100%, 0.2);
+  --bg: #0f172a;
+  color: rgba(226, 232, 240, 0.92);
+  --textTitle: #f8fafc;
+  --textLink: #7dd3fc;
+  --hr: rgba(148, 163, 184, 0.32);
+  --icon-filter: invert(1);
+}
+
+body,
+body * {
+  transition: color 240ms ease, background-color 240ms ease, border-color 240ms ease;
 }
 
 .section {
@@ -62,15 +80,24 @@ body.dark {
 }
 
 .primary-btn {
-  margin: 10px;
-  padding: 10px;
-  background-color: black;
-  color: white;
-  border: 0px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0.8rem 1.4rem;
+  background: linear-gradient(180deg, #1f2937 0%, #111827 100%);
+  color: #f8fafc;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.18);
   &:hover {
-    transform: scale(1.1);
+    transform: translateY(-1px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.22);
+    border-color: rgba(96, 165, 250, 0.42);
   }
 }

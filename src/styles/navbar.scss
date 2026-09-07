@@ -4,11 +4,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: var(--textTitle);
+
   .name {
     font-weight: 600;
+    color: var(--textTitle);
   }
+
   .links-wrapper {
     button {
+      color: var(--textTitle);
       text-decoration: none;
       padding: 10px;
       font-family: "Open Sans";
@@ -19,12 +24,14 @@
       outline: none;
       border: 0px;
       cursor: pointer;
+
       &:hover {
         opacity: 1;
       }
     }
+
     .active {
-      color: black;
+      color: var(--textLink);
     }
   }
 }
