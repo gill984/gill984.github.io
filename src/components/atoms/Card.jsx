@@ -1,6 +1,6 @@
 import React from "react"
 
-const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+const Card = ({ heading, paragraph, imgUrl, imgWebp, imgAvif, projectLink }) => {
   return (
     <a
       className="card"
@@ -8,13 +8,17 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <img
-        className="card-image"
-        src={imgUrl}
-        alt={heading}
-        loading="lazy"
-        decoding="async"
-      />
+      <picture className="card-image-wrapper">
+        {imgAvif && <source srcSet={imgAvif} type="image/avif" />}
+        {imgWebp && <source srcSet={imgWebp} type="image/webp" />}
+        <img
+          className="card-image"
+          src={imgUrl}
+          alt={heading}
+          loading="lazy"
+          decoding="async"
+        />
+      </picture>
       <div className="content">
         <h2 className="header">{heading}</h2>
         <p className="text">{paragraph}</p>

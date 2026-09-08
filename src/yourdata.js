@@ -1,7 +1,15 @@
 import hpcPicture from "./images/hpc_picture.png"
+import hpcPictureWebp from "./images/hpc_picture.webp"
+import hpcPictureAvif from "./images/hpc_picture.avif"
 import discordPicture from "./images/discord_bot.jpg"
-import leetcodePicture from "./images/leetcode.png"
+import discordPictureWebp from "./images/discord_bot.webp"
+import discordPictureAvif from "./images/discord_bot.avif"
+import leetcodePicture from "./images/leetcode2.png"
+import leetcodePictureWebp from "./images/leetcode2.webp"
+import leetcodePictureAvif from "./images/leetcode2.avif"
 import websitePicture from "./images/website_picture.png"
+import websitePictureWebp from "./images/website_picture.webp"
+import websitePictureAvif from "./images/website_picture.avif"
 
 import resumePdf from "./Michael Gill Resume Website.pdf"
 
@@ -37,6 +45,8 @@ export default {
       para:
         "In 2018 I created a programming competition for my company on free time.",
       imageSrc: hpcPicture,
+      imageWebp: hpcPictureWebp,
+      imageAvif: hpcPictureAvif,
       url: "https://bitbucket.org/gill984/hpc_2018",
     },
     {
@@ -45,6 +55,8 @@ export default {
       para:
         "I work on Leetcode to hone my skills as a programmer. To date I have 1000+ solutions",
       imageSrc: leetcodePicture,
+      imageWebp: leetcodePictureWebp,
+      imageAvif: leetcodePictureAvif,
       url: "https://leetcode.com/bronickel/",
     },
     {
@@ -53,6 +65,8 @@ export default {
       para:
         "I created a Discord bot which creates a thread containing the latest daily Leetcode question on command",
       imageSrc: discordPicture,
+      imageWebp: discordPictureWebp,
+      imageAvif: discordPictureAvif,
       url: "https://github.com/gill984/DiscordLeetcodeBot",
     },
     {
@@ -60,6 +74,8 @@ export default {
       title: "Portfolio Website",
       para: "The website you're viewing now is managed on github.",
       imageSrc: websitePicture,
+      imageWebp: websitePictureWebp,
+      imageAvif: websitePictureAvif,
       url: "https://github.com/gill984/gill984.github.io",
     },
   ],

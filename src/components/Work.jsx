@@ -16,6 +16,8 @@ const Work = () => {
                 heading={project.title}
                 paragraph={project.para}
                 imgUrl={project.imageSrc}
+                imgWebp={project.imageWebp}
+                imgAvif={project.imageAvif}
                 projectLink={project.url}
               ></Card>
             ))}

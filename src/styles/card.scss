@@ -22,6 +22,12 @@
     background: rgba(15, 23, 42, 0.52);
   }
 
+  .card-image-wrapper {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+
   .card-image {
     position: absolute;
     inset: 0;
@@ -114,7 +120,7 @@
     list-style: none;
 
     &::before,
-    .card-image {
+    .card-image-wrapper {
       display: none;
     }
 
